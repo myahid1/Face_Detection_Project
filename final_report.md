@@ -276,3 +276,17 @@ This project demonstrated a complete face detection workflow using OpenCV and Ha
 The final selected setting used `minNeighbors=7`, which achieved a detection rate of 95.06%. Although this was slightly lower than the 96.00% detection rate from `minNeighbors=5`, it reduced the number of images with multiple detections from 264 to 174. This made it a better overall setting for reducing likely false positives while still detecting faces in most images.
 
 Overall, the project showed how classical computer vision methods can be used for face detection, how OpenCV handles image processing, and why parameter tuning and qualitative error analysis are important. It also highlighted the limitations of Haar Cascades and provided a natural next step toward comparing classical methods with deep learning-based detectors such as MTCNN.
+
+## References
+
+[1] OpenCV Documentation. *Color conversions*. OpenCV explains colour space conversion and the BGR/RGB channel ordering used in OpenCV image processing.  
+https://docs.opencv.org/master/d8/d01/group__imgproc__color__conversions.html
+
+[2] OpenCV Documentation. *Face Detection using Haar Cascades*. OpenCV describes Haar feature-based cascade classifiers as an object detection method based on the Viola-Jones framework.  
+https://docs.opencv.org/3.4/d2/d99/tutorial_js_face_detection.html
+
+[3] OpenCV Documentation. *CascadeClassifier detectMultiScale*. OpenCV describes `minNeighbors` as the parameter specifying how many neighbouring candidate rectangles are required for a detection to be retained.  
+https://docs.opencv.org/3.4/javadoc/org/opencv/objdetect/CascadeClassifier.html
+
+[4] Zhang, K., Zhang, Z., Li, Z., & Qiao, Y. *Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks*. arXiv, 2016.  
+https://arxiv.org/abs/1604.02878

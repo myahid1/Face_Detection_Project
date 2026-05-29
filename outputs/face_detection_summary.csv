@@ -1,0 +1,6 @@
+Metric,Value
+Total images processed,1800.0
+Images with at least one detected face,1711.0
+Images with no detected faces,89.0
+Images with multiple detections,174.0
+Detection rate,0.9506

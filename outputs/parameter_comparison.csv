@@ -1,0 +1,3 @@
+Setting,Total Images,Images with Faces,Images with No Faces,Images with Multiple Detections,Detection Rate
+minNeighbors=5,1800,1728,72,264,0.96
+minNeighbors=7,1800,1711,89,174,0.9506

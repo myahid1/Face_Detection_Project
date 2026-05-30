@@ -127,33 +127,16 @@ Face_Detection_Project/
 ## How to Run
 
 1. Clone the repository:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/Face_Detection_Project.git
-cd Face_Detection_Project
-```
-
 2. Create and activate a virtual environment:
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-```
-
 3. Install dependencies:
-
-```bash
+```
 pip install -r requirements.txt
 ```
-
 4. Add the image dataset into:
-
 ```text
 images/dataset/
 ```
-
 5. Open and run the notebook:
-
 ```text
 notebooks/01_face_detection.ipynb
 ```
